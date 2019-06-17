@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Search String</title>
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/StringSearch.css" rel="stylesheet" />
+
+
+</head>
+<body>
+
+<nav>
+    <img class="logo" src="https://steeleglobal.com/wp-content/themes/steeleglobal_composer/assets/dist/images/logo_white.svg" />
+</nav>
+
+<h1>String Search</h1>
+
+<div class="container">
+
+    <div class="form-group">
+        <span class="form-label"><label>Portugues:</label></span>
+        <input type="text" class="form-control" id="termo" placeholder="Digite os termos em portugues" name="termo"></input>
+        <button type="submit" class="btn btn-lg btn-primary" onclick="pesquisaPortugues()">Submit</button>
+    </div>
+    <div class="form-group">
+        <span class="form-label"><label>Inglês:</label></span>
+        <input type="text" class="form-control" id="term" placeholder="Type the english terms" name="term"></input>
+        <button type="submit" class="btn btn-lg btn-primary" onclick="pesquisaIngles()">Submit</button>
+    </div>
+
+</div>
+
+ <footer class="rodape-pagina">
+    © 2019 Copyright: Everson Jr
+ </footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+<script src="js/StringSearch.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+</body>
+</html>
