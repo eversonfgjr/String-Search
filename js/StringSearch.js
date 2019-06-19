@@ -20,7 +20,7 @@ function getTermosPesquisa(idioma) {
         t.push(' AND+gift+OR+"political donation"+OR+donated+OR+"terrorism financing"+OR+"financed terrorism"+OR+terrorism+OR+"things of value"');
         t.push(' AND+bankruptcy+OR+lien+OR+lawsuit+OR+sued+OR+contest+OR+appeal+OR+complaint+OR+subpoena+OR+"patent infringement"+OR+"patent violation"+OR+"IP infringement"+OR+"IP violation"+OR+"financial difficulties"+OR+"financial duress"+OR+insolvency+OR+insolvent');
         t.push(' AND+"Car Wash"+OR+"federal police"+OR+"plea bargaining"+OR+"leniency agreement"');
-        t.push(' AND+deposition+OR+"senate hearing"+OR+exonerated+OR+appointed+OR+government+OR+state+OR+"civil servant"+OR+"public service"+OR+politician+OR+party+OR+investiture+OR+"city hall"+OR+municipality+OR+congress+OR+senate+OR+councilman+OR+congressman+OR+senator+OR+mayor+OR+governor');
+        t.push(' AND+deposition+OR+"senate hearing"+OR+exonerated+OR+appointed+OR+government+OR+state+OR+"civil servant"+OR+"public service"+OR+politician+OR+party+OR+investiture+OR+"city hall"+OR+municipality+OR+congress+OR+senate+OR+councilman+OR+congressman+OR+senator+OR+mayor+OR+governor+OR+watchlist+OR+"watch list"');
     }
     return t;
 }
